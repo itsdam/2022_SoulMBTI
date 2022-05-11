@@ -1,0 +1,60 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="202044032">
+  <meta name="keywords" content="소울메이트 예술가 테스트">
+  <meta name="description" content="소울메이트 예술가 테스트">
+
+  <!--sns share -->
+  <meta property="og:url" content="http://soulmbtiwithartists.netlify.app" />
+  <meta property="og:title" content="소울메이트 예술가 테스트" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="../img/share.png" />
+  <meta property="og:description" content="당신과 소울메이트인 예술가를 알아보아요" />
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="../img/favicon.ico" />
+
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/default.css">
+  <link rel="stylesheet" href="../css/result.css">
+  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+  <script>
+    Kakao.init('795c5cf96b923c610bab9a841cf7b373');
+    Kakao.isInitialized();
+  </script>
+
+  <style>
+    body {
+      background-image: url("../img/gogh.jpg");
+      background-size: auto;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+  <body>
+    <section id="shareResult" class="mx-auto my-5 py-5 px-3">
+      <h1 class="title3" style="font-size:35px;">Here's Your Soulmate</h1><br><br>
+      <div class="resultname">
+        <p>뜨거운 논쟁을 즐기는 변론가, ENTP "마르셀 뒤샹"</p>
+      </div>
+      <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+        <img src="../img/image-11.png" alt="11" class="img-fluid">
+      </div>
+      <div class="resultDesc">
+        <p>ENTP는 본인이 구상하는 바를 실현시키고 싶어하는 기질이 강하며, 여기에 특유의 아웃사이더적인 성격까지 겹쳐 말 그대로 혁명가의 기질을 띠고 있다. 모든 분야에 있어서, 기존의 체제 자체를 뒤집어 버리거나 분야 전체의 도약을 이루어내는 인물들이 많다. 다재다능하고 토론을 좋아하며 항상 다양하고 색다른 환경에서의 업무 및 변화를 추구하는 기질, 발명적이고 혁명가적인 성향 때문에 법조인, 언론인, 정치인, 강사, 엔지니어, 개발자와 같은 대외활동 직군 or 전문직에서 뛰어난 역량을 발휘한다.</p>
+      </div>
+      <script type="text/javascript">
+        function moveHome(){
+        location.href = "/index.html";
+      }
+      </script>
+      <button type="button" class="gohome mt-3 py-2 px-3" onclick="js:moveHome()">나도 참여하기</button>
+    </section>
+  </body>
+</html>

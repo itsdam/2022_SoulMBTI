@@ -1,0 +1,60 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="202044032">
+  <meta name="keywords" content="소울메이트 예술가 테스트">
+  <meta name="description" content="소울메이트 예술가 테스트">
+
+  <!--sns share -->
+  <meta property="og:url" content="http://soulmbtiwithartists.netlify.app" />
+  <meta property="og:title" content="소울메이트 예술가 테스트" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="../img/share.png" />
+  <meta property="og:description" content="당신과 소울메이트인 예술가를 알아보아요" />
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="../img/favicon.ico" />
+
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/default.css">
+  <link rel="stylesheet" href="../css/result.css">
+  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+  <script>
+    Kakao.init('795c5cf96b923c610bab9a841cf7b373');
+    Kakao.isInitialized();
+  </script>
+
+  <style>
+    body {
+      background-image: url("../img/gogh.jpg");
+      background-size: auto;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+  <body>
+    <section id="shareResult" class="mx-auto my-5 py-5 px-3">
+      <h1 class="title3" style="font-size:35px;">Here's Your Soulmate</h1><br><br>
+      <div class="resultname">
+        <p>사교적인 외교관, ESFJ "오귀스트 르누아르"</p>
+      </div>
+      <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+        <img src="../img/image-13.png" alt="13" class="img-fluid">
+      </div>
+      <div class="resultDesc">
+        <p>동정심이 많고 다른 사람에게 관심을 쏟으며 인화를 중시한다. 타고난 협력자로서 동료애가 많고 친절하며 능동적인 구성원이다. 이야기 하기를 즐기며 정리정돈을 잘하고, 참을성이 많고 다른 사람들을 잘 도와준다. 사람을 다루고 행동을 요구하는 분야, 예를 들면 교직, 성직, 판매 특히 동정심을 필요로 하는 간호나 의료 분야에 적합하다. 일이나 사람 관련 문제에 대하여 냉철한 입장을 취하기 어려워한다. 반대 의견에 부딪혔을 때나, 자신의 요구가 거절 당했을 때 마음의 상처를 받는다</p>
+      </div>
+      <script type="text/javascript">
+        function moveHome(){
+        location.href = "/index.html";
+      }
+      </script>
+      <button type="button" class="gohome mt-3 py-2 px-3" onclick="js:moveHome()">나도 참여하기</button>
+    </section>
+  </body>
+</html>

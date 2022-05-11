@@ -1,0 +1,60 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="202044032">
+  <meta name="keywords" content="소울메이트 예술가 테스트">
+  <meta name="description" content="소울메이트 예술가 테스트">
+
+  <!--sns share -->
+  <meta property="og:url" content="http://soulmbtiwithartists.netlify.app" />
+  <meta property="og:title" content="소울메이트 예술가 테스트" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="../img/share.png" />
+  <meta property="og:description" content="당신과 소울메이트인 예술가를 알아보아요" />
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="../img/favicon.ico" />
+
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/default.css">
+  <link rel="stylesheet" href="../css/result.css">
+  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+  <script>
+    Kakao.init('795c5cf96b923c610bab9a841cf7b373');
+    Kakao.isInitialized();
+  </script>
+
+  <style>
+    body {
+      background-image: url("../img/gogh.jpg");
+      background-size: auto;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+  <body>
+    <section id="shareResult" class="mx-auto my-5 py-5 px-3">
+      <h1 class="title3" style="font-size:35px;">Here's Your Soulmate</h1><br><br>
+      <div class="resultname">
+        <p>대담한 통솔자, ENTJ "파블로 피카소"</p>
+      </div>
+      <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+        <img src="../img/image-15.png" alt="15" class="img-fluid">
+      </div>
+      <div class="resultDesc">
+        <p>열성이 많으며 자기 주장이 강하면서 단호하고 지도력과 통솔력이 있다. 부기능인 Ni(내향 직관)으로 활동적이고 장기적인 계획과 거시적 비전을 선호한다. 지식에 대한 욕구와 관심이 많으며 특히 직관력을 사용해서 지적인 자극을 주는 새로운 아이디어에 높은 관심을 가지고 있다. 일 처리에 있어 사전 준비를 철저히 하며 주기능인 Te(외향 사고)로 논리, 분석적으로 계획하고 조직하여 체계적으로 추진해 나가는 유형이다. 다른 사람의 의견에 귀를 기울일 필요가 있으며, 자신과 타인의 감정에 충실할 필요가 있다.</p>
+      </div>
+      <script type="text/javascript">
+        function moveHome(){
+        location.href = "/index.html";
+      }
+      </script>
+      <button type="button" class="gohome mt-3 py-2 px-3" onclick="js:moveHome()">나도 참여하기</button>
+    </section>
+  </body>
+</html>

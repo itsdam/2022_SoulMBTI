@@ -1,0 +1,60 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="202044032">
+  <meta name="keywords" content="소울메이트 예술가 테스트">
+  <meta name="description" content="소울메이트 예술가 테스트">
+
+  <!--sns share -->
+  <meta property="og:url" content="http://soulmbtiwithartists.netlify.app" />
+  <meta property="og:title" content="소울메이트 예술가 테스트" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="../img/share.png" />
+  <meta property="og:description" content="당신과 소울메이트인 예술가를 알아보아요" />
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="../img/favicon.ico" />
+
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/default.css">
+  <link rel="stylesheet" href="../css/result.css">
+  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+  <script>
+    Kakao.init('795c5cf96b923c610bab9a841cf7b373');
+    Kakao.isInitialized();
+  </script>
+
+  <style>
+    body {
+      background-image: url("../img/gogh.jpg");
+      background-size: auto;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+  <body>
+    <section id="shareResult" class="mx-auto my-5 py-5 px-3">
+      <h1 class="title3" style="font-size:35px;">Here's Your Soulmate</h1><br><br>
+      <div class="resultname">
+        <p>호기심 많은 예술가, ISFP "올라퍼 엘리아슨"</p>
+      </div>
+      <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+        <img src="../img/image-5.png" alt="5" class="img-fluid">
+      </div>
+      <div class="resultDesc">
+        <p>말없이 다정하고 온화하며 사람들에게 친절하고 상대방을 잘 알게 될 때까지 내면의 모습이 잘 보이지 않는다. 의견 충돌을 피하고, 인화를 중시한다. 인간과 관계되는 일을 할 때 자신의 감정과 타인의 감정에 지나치게 민감한 경향이 있다. 이들은 결정력과 추진력을 기를 필요가 있을 것이다. 3차 기능인 Ni(내향 직관)으로 눈치가 빠르며, 조용히 자기 일만 하고 있는 것처럼 보이지만 사실 주변 상황파악도 다 하고 있다. 경험을 통해서 자신의 내면을 보호하는 데에 잘 사용할 수 있다.</p>
+      </div>
+      <script type="text/javascript">
+        function moveHome(){
+        location.href = "/index.html";
+      }
+      </script>
+      <button type="button" class="gohome mt-3 py-2 px-3" onclick="js:moveHome()">나도 참여하기</button>
+    </section>
+  </body>
+</html>

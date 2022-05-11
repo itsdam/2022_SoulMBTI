@@ -1,0 +1,62 @@
+
+
+.title1{
+  font-family: 'Black Han Sans', sans-serif;
+  color: #008B8B;
+}
+
+.setting1{
+  font-family: 'Black Han Sans', sans-serif;
+  color: #008B8B;
+  line-height:20px;
+}
+
+.setting2{
+  font-family: 'Black Han Sans', sans-serif;
+  color: #2c2c2c;
+  line-height:50px;
+}
+
+.title2{
+  font-family: 'Black Han Sans', sans-serif;
+  color: #2c2c2c;
+}
+
+.title3{
+  font-family: 'Black Han Sans', sans-serif;
+  color: #AFEEEE;
+  -webkit-text-stroke: 1px #5F9EA0;
+}
+
+p{
+  font-family: 'Jua', sans-serif;
+  color: #696969;
+}
+
+label{
+  font-family: 'Jua', sans-serif;
+}
+
+input{
+  font-family: 'Jua', sans-serif;
+}
+
+button{
+  font-family: 'Jua', sans-serif;
+
+}
+
+.setting{
+  font-family: 'Jua', sans-serif;
+  color: #C0C0C0;
+  border: 0;
+  outline: 0;
+  background-color:transparent;
+  font-size: 14px;
+  line-height:1px;
+}
+
+.option {
+  font-family: 'Jua', sans-serif;
+  color: #D3D3D3;
+}
